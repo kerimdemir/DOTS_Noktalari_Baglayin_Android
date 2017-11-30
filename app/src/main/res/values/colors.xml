@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#cccacb</color>
+    <color name="linearLayoutcolor">#6b8894</color>
+    <color name="spinnerLayoutcolor">#607d89</color>
+    <color name="backgroundColor">#df407ab0</color>
+    <color name="uyeButtonColor">#00aeff</color>
+
+
+</resources>

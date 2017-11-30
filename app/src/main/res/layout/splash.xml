@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="@drawable/secim_arkaplan3"
+	>
+
+
+	<TextView
+
+		android:id="@+id/splashtext"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="70dp"
+		android:gravity="center_horizontal"
+ android:textColor="#000000"
+		android:text="1."
+		android:textSize="108dp" />
+
+
+	<TextView
+
+		android:id="@+id/splashtexttur"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+
+		android:textColor="#000000"
+		android:gravity="center_horizontal"
+
+		android:text="TUR"
+		android:textSize="108dp" />
+
+
+
+</LinearLayout>

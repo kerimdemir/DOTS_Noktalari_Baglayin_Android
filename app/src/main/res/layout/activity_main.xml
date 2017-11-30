@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.15"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="65dp"
+            android:id="@+id/text"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_weight="0.96"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="109dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="1. Oyuncu"
+            android:ems="10"
+            android:id="@+id/edit_oyuncu1" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:id="@+id/spinner_oyuncu1"
+            android:background="#FFFFFF"
+
+             />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="2. Oyuncu"
+            android:ems="10"
+            android:id="@+id/edit_oyuncu2" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#FFFFFF"
+            android:id="@+id/spinner_oyuncu2"
+            />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox_Bilgisayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayara Karşı Oyna" />
+
+    <Button
+        android:id="@+id/btnYeniOyun"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/myshape"
+        android:gravity="center"
+        android:onClick="onButtonClick"
+        android:text="Başla" />
+
+</LinearLayout>

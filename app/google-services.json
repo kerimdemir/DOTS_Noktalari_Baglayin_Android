@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1000642555298",
+    "firebase_url": "https://noktaproje-95793.firebaseio.com",
+    "project_id": "noktaproje-95793",
+    "storage_bucket": "noktaproje-95793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000642555298:android:a130860ab9c3f466",
+        "android_client_info": {
+          "package_name": "com.example.kerim.noktakutu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000642555298-2teej4kkf64hf80elme3bp0r63aneu5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kerim.noktakutu",
+            "certificate_hash": "5365ceef04dc4e84aa91fc22646bd44ada0daf48"
+          }
+        },
+        {
+          "client_id": "1000642555298-c91gb4n5nvqe99bup53m6ghp65d58ec4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwh-mn6SUJM30A7HCT-T9SrO54-dq-PAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000642555298-c91gb4n5nvqe99bup53m6ghp65d58ec4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

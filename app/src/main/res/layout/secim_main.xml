@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secim_arkaplan"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvKullanici_adi"
+        android:layout_width="307dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/exitbutton"
+        android:background="@drawable/cikisbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+       />
+
+</LinearLayout>
+
+    <ImageView
+
+        android:id="@+id/imageprofil"
+        android:layout_width="200dp"
+        android:layout_height="202dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnYeniOyun"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        android:background="@android:color/transparent"
+
+        android:gravity="center"
+        android:onClick="onButtonClick"
+        android:text="YENİ OYUN"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnIkioyuncu"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="İki Kişilik"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnEniyiOyuncu"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="En İyi Oyuncular"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnHakkinda"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:onClick="onhakkindaClick"
+        android:text="Hakkında"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnNasilOynanir"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:onClick="onnasilOynanirClick"
+        android:text="Nasıl Oynanır"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cikis_yap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Çıkış Yap"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:background="#000" />
+
+        <Button
+            android:id="@+id/kullaniciSil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.16"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Hesabımı Sil"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

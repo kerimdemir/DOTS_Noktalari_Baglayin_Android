@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">D O T\nNokta Bağla</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+
+    <string name="tesekkur" >Tesekkurler</string>
+    <string name="berabere">Beraber</string>
+    <string name="tebrikler">Tebrikler</string>
+    <string name="kazandı"> Kazandı</string>
+    <string name="kaybettin">Kaybettiniz</string>
+    <string name="hayir">Hayır</string>
+    <string name="evet">Evet</string>
+    <string name="thanks">Teşekkürler</string>
+
+    <string name="kazandın">kazandın</string>
+
+    <string name="facebook_app_id">241795629563454</string>
+
+    <string name="Email">Email</string>
+    <string name="Parola">Parola</string>
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="kullaniciSil">Kullanıcıyı Sil</string>
+
+
+
+</resources>

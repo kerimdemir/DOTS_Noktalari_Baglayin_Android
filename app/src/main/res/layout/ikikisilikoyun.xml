@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.16"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1.Oyuncu"
+            android:textColor="#FFFFFF"
+            android:textSize="100px" />
+
+        <EditText
+
+            android:id="@+id/edit_oyuncu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="İsim giriniz:"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+
+        <Spinner
+            android:id="@+id/spinner_oyuncu1"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_weight="0.63"
+
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="109dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.26">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2.Oyuncu"
+            android:textColor="#FFFFFF"
+            android:textSize="100px" />
+
+        <EditText
+            android:id="@+id/edit_oyuncu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:hint="İsim giriniz:"
+            android:inputType="textPersonName" />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+
+            android:textColor="#FFFFFF"
+            android:id="@+id/spinner_oyuncu2"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnYeniOyun"
+        android:layout_width="340dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/myshape"
+        android:gravity="center"
+        android:onClick="onButtonClick"
+        android:text="Başla"
+        android:textSize="20dp" />
+
+</LinearLayout>
